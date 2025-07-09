@@ -24,15 +24,33 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Button Content="DAILY LOG" Grid.Row="1" Grid.Column="1" Margin="0 20 0 20"/>
-        <Button Content="WEEKLY LOG" Grid.Row="2" Grid.Column="1" Margin="0 20 0 20"/>
-        <Button Content="MONTHLY LOG" Grid.Row="3" Grid.Column="1" Margin="0 20 0 20"/>
-        <Button Content="YEARLY LOG" Grid.Row="4" Grid.Column="1" Margin="0 20 0 20"/>
+        <Button Content="DAILY LOG" Grid.Row="1" Grid.Column="1" Click="DailyLogButton_Click"/>
+        <Button Content="WEEKLY LOG" Grid.Row="2" Grid.Column="1"/>
+        <Button Content="MONTHLY LOG" Grid.Row="3" Grid.Column="1"/>
+        <Button Content="YEARLY LOG" Grid.Row="4" Grid.Column="1"/>
 
-        <UniformGrid Grid.Row="1" Grid.Column="2" Rows="3" Columns="3">
+        <UniformGrid Grid.Row="1" Grid.Column="2" Rows="5" Columns="20" Margin="10">
             <Rectangle Fill="Red"/>
             <Rectangle Fill="Black"/>
             <Rectangle Fill="Blue"/>
+        </UniformGrid>
+
+        <UniformGrid Grid.Row="2" Grid.Column="2" Rows="5" Columns="20" Margin="10">
+            <Rectangle Fill="Red"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="Blue"/>
+        </UniformGrid>
+
+        <UniformGrid Grid.Row="3" Grid.Column="2" Rows="5" Columns="20" Margin="10">
+            <Rectangle Fill="Red"/>
+            <Rectangle Fill="Blue"/>
+            <Rectangle Fill="Blue"/>
+        </UniformGrid>
+
+        <UniformGrid Grid.Row="4" Grid.Column="2" Rows="5" Columns="20" Margin="10">
+            <Rectangle Fill="Red"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="Green"/>
         </UniformGrid>
 
 

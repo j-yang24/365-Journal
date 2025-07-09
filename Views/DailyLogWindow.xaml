@@ -6,16 +6,18 @@
         xmlns:local="clr-namespace:_365WPF.Views"
         mc:Ignorable="d"
         Title="DailyLogWindow" Height="450" Width="800">
-    <StackPanel Margin="20">
-        <TextBlock Text="How well did you read today (1-10) ? "/>
-        <Slider Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True"/>
-        <TextBlock Text="How well did you exercise today (1-10) ? "/>
-        <Slider Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True"/>
-        <TextBlock Text="How well did you eat healthy today (1-10) ? "/>
-        <Slider Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True"/>
-        <TextBlock Text="How well did you sleep today (make a guess) (1-10) ? "/>
-        <Slider Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True"/>
 
-        <Button Content="Save Log" Margin="10"/>
-    </StackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+    </Grid>
 </Window>

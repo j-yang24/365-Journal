@@ -5,7 +5,6 @@ WPF - windows presentation foundation (a windows program)
 
 **365WPF - a journaling and productivity system to keep you organized in life**
 
-**#Features**
 _Journaling Features_
 - Daily logs: 24hour timesheet, major and minor tasks lists, am reflection log, pm reflection log, habit tracker
 - Weekly logs: weekly habits summary, weekly goals list, weekly reflection prompts

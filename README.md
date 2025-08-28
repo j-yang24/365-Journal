@@ -1,6 +1,6 @@
 GOAL (last updated 8/27/2025)
 
-365 - three hundred sixty five days in a year
+365 - three hundred sixty five days in a year ||
 WPF - windows presentation foundation (a windows program)
 
 **365WPF - a journaling and productivity system to keep you organized in life**

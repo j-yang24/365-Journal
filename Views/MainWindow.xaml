@@ -4,56 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_365WPF"
+        xmlns:userControls="clr-namespace:_365WPF.Views.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     
     <!-- Everything in the grid has to be in the grid-->
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="40*"/>
-            <ColumnDefinition Width="60*"/>
-            <ColumnDefinition Width="20"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="70" />
+            <RowDefinition />
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Button Content="DAILY LOG" Grid.Row="1" Grid.Column="1" Click="DailyLogButton_Click"/>
-        <Button Content="WEEKLY LOG" Grid.Row="2" Grid.Column="1"/>
-        <Button Content="MONTHLY LOG" Grid.Row="3" Grid.Column="1"/>
-        <Button Content="YEARLY LOG" Grid.Row="4" Grid.Column="1"/>
-
-        <UniformGrid Grid.Row="1" Grid.Column="2" Rows="5" Columns="20" Margin="10">
-            <Rectangle Fill="Red"/>
-            <Rectangle Fill="Black"/>
-            <Rectangle Fill="Blue"/>
-        </UniformGrid>
-
-        <UniformGrid Grid.Row="2" Grid.Column="2" Rows="5" Columns="20" Margin="10">
-            <Rectangle Fill="Red"/>
-            <Rectangle Fill="Black"/>
-            <Rectangle Fill="Blue"/>
-        </UniformGrid>
-
-        <UniformGrid Grid.Row="3" Grid.Column="2" Rows="5" Columns="20" Margin="10">
-            <Rectangle Fill="Red"/>
-            <Rectangle Fill="Blue"/>
-            <Rectangle Fill="Blue"/>
-        </UniformGrid>
-
-        <UniformGrid Grid.Row="4" Grid.Column="2" Rows="5" Columns="20" Margin="10">
-            <Rectangle Fill="Red"/>
-            <Rectangle Fill="Black"/>
-            <Rectangle Fill="Green"/>
-        </UniformGrid>
-
+        <userControls:MenuBar/>
 
     </Grid>
-    
+
+
 </Window>

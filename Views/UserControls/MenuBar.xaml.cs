@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _365WPF.Views
+namespace _365WPF.Views.UserControls
 {
     /// <summary>
-    /// Interaction logic for YearlyLogWindow.xaml
+    /// Interaction logic for MenuBar.xaml
     /// </summary>
-    public partial class YearlyLogWindow : Window
+    public partial class MenuBar : UserControl
     {
-        public YearlyLogWindow()
+        public MenuBar()
         {
             InitializeComponent();
         }

@@ -20,11 +20,5 @@ namespace _365WPF.Views
         {
             InitializeComponent();
         }
-
-        private void DailyLogButton_Click(object sender, RoutedEventArgs e)
-        {
-            DailyLogWindow logWindow = new DailyLogWindow();
-            logWindow.Show(); // or use .ShowDialog() for a modal window
-        }
     }
 }

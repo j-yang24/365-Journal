@@ -15,7 +15,6 @@
             <RowDefinition />
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-
         <userControls:MenuBar/>
 
     </Grid>

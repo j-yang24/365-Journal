@@ -13,9 +13,16 @@
         </Grid.RowDefinitions>
         <Menu>
             <MenuItem Header="File" FontSize="16">
+                <MenuItem Header="New" FontSize="16"/>
+                <MenuItem Header="Save" FontSize="16"/>
+                <MenuItem Header="Save As" FontSize="16"/>
                 <MenuItem Header="Exit" FontSize="16"/>
             </MenuItem>
-            <MenuItem Header="Edit" FontSize="16"/>
+            <MenuItem Header="View" FontSize="16"/>
+            <MenuItem Header="Help" FontSize="16">
+                <MenuItem Header="User Manual" FontSize="16"/>
+                <MenuItem Header="About" FontSize="16"/>
+            </MenuItem>
         </Menu>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
